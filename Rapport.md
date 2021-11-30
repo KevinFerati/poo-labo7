@@ -127,7 +127,8 @@ Two   : []
 Three : [1, 2, 3, 4]
 ~~~
 
-Argument : "" (pas d'argument)
+`> java HanoiTest  
+(pas d'argument)
 ~~~
 -> interface graphique
 ~~~
