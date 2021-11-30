@@ -6,7 +6,7 @@ public class HanoiTest {
     public static void main(String[] args) {
         if (args.length > 1)
             throw new RuntimeException("Un argument maximum");
-        
+
         if (args.length == 0) {
             new JHanoi();
             return;
@@ -14,6 +14,5 @@ public class HanoiTest {
 
         Hanoi h = new Hanoi(Integer.parseInt(args[0]));
         h.solve();
-
     }
 }

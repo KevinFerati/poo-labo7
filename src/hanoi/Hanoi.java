@@ -19,7 +19,6 @@ public class Hanoi {
         this(disks, new HanoiDisplayer());
     }
 
-
     /**
      * Créer une instance Hanoi permettant de résoudre la tour de hanoi
      * @param disks Nombre de disque sur la première colonne
@@ -59,7 +58,6 @@ public class Hanoi {
         lancerResolutionRecursif(disqueCompteur - 1, milieu, fin, debut);
 
     }
-
 
     /**
      * @return l'état actuel des trois colonnes sous forme de matrice de taille de 3 x N.

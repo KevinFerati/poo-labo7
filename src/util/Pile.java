@@ -17,7 +17,6 @@ public class Pile<T> implements Iterable<T> {
         taille++;
     }
 
-
     /**
      * Enlève l'objet sur le sommet de la pile et le retourne
      * @throws EmptyStackException si la pile est vide
@@ -37,20 +36,18 @@ public class Pile<T> implements Iterable<T> {
      */
     @Override
     public String toString() {
-        StringBuilder builder = new StringBuilder().append('[');
+        StringBuilder builder = new StringBuilder("["();
         for (T donnee : this) {
             builder.append(donnee).append(", ");
         }
 
         int taille = builder.length();
-
         // Supprime la dernière virgule s'il y a eu des données
         if (taille > 2)
             builder.delete(taille - 2, taille);
 
         return  builder.append(']').toString();
     }
-
 
     /**
      * Retourne une représentation sous forme de tableau de la pile
@@ -72,14 +69,12 @@ public class Pile<T> implements Iterable<T> {
         return new MaillonIterateur<>(donnees);
     }
 
-
     /**
      * @return le nombre d'élément que cette pile contient
      */
     public int taille() {
         return taille;
     }
-
 
     /**
      * @return True si la pile est vide, false sinon.
