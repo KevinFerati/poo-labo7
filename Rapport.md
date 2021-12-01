@@ -3,7 +3,7 @@
 Auteurs : Kevin Ferati & Romain Humair
 
 ## Moines surentraînés
-Le nombre de déplacement est de l'ordre de 2^n-1 ou n représente le nombre de disque
+Le nombre de déplacements est de l'ordre de 2^n-1 ou n représente le nombre de disques
 ~~~
     1 disque  : 2^1-1  = 1 opération
     2 disques : 2^2-1  = 3 opérations
@@ -12,12 +12,12 @@ Le nombre de déplacement est de l'ordre de 2^n-1 ou n représente le nombre de 
     64 disques: 2^64-1 = 18446744073709551615 opérations
 ~~~
 Si les moines déplacent 1 disque par seconde, la résolution du jeu des tours de Hanoi va prendre 18446744073709551615 
-secondes soit 584.94 milliards d'année.
+secondes soit 584.94 milliards d'années.
 
-Celon la légende, une fois la tour de Hanoi reconstruite sur une autre aiguille, l'univers disparaîtra.
+Selon la légende, une fois la tour de Hanoi reconstruite sur une autre aiguille, l'univers disparaîtra.
 En considérant que les moines ont commencé à reconstruire la tour de Hanoi à la naissance de l'univers et que
-celui-ci est agé de 13.7 milliards d'année, il nous reste (584.94-13.7) 571.24 d'années avant que l'univers
-ne s'effronde.
+celui-ci est âgé de 13.7 milliards d'années, il nous reste (584.94-13.7) 571.24 années avant que l'univers
+ne s'effondre.
 
 ___
 ## UML
@@ -67,7 +67,7 @@ Voir le fichier PileTest.java pour plus de détails sur les tests.
 ___
 ### Hanoi
 
-Les tests de la classe Hanoi sont réalisé en donnant différentes valeures en argument à la classe HanoiTest.
+Les tests de la classe Hanoi sont réalisés en donnant différentes valeurs en argument à la classe HanoiTest.
 
 `> java HanoiTest Test
 ~~~
@@ -133,8 +133,8 @@ Three : [1, 2, 3, 4]
 -> interface graphique
 ~~~
 
-La classe Hanoi fonctionne, le jeu des tours de Hanoi est bien résolut et la selection de l'affichage 
-console/graphique est selectionné en fonction de s'il y a un argument ou non.
+La classe Hanoi fonctionne, le jeu des tours de Hanoi est bien résolu et la sélection de l'affichage 
+console/graphique est sélectionné en fonction de s'il y a un argument ou non.
 
 ___
 
