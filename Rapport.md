@@ -130,8 +130,8 @@ Three : [1, 2, 3, 4]
 `> java HanoiTest  
 (pas d'argument)
 
-![Start](images/Graphique_start.png)
-![Finish](images/Graphique_finish.png)
+![Start](images/Graphique_start.PNG)
+![Finish](images/Graphique_finish.PNG)
 
 La classe Hanoi fonctionne, le jeu des tours de Hanoi est bien résolu et la sélection de l'affichage 
 console/graphique est sélectionné en fonction de s'il y a un argument ou non.
