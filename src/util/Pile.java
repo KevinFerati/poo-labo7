@@ -36,7 +36,7 @@ public class Pile<T> implements Iterable<T> {
      */
     @Override
     public String toString() {
-        StringBuilder builder = new StringBuilder("["();
+        StringBuilder builder = new StringBuilder().append('[');
         for (T donnee : this) {
             builder.append(donnee).append(", ");
         }
