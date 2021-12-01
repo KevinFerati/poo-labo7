@@ -21,7 +21,7 @@ ne s'effondre.
 
 ___
 ## UML
-![UML](UML_labo07.png)  
+![UML](images/UML_labo07.png)  
 fichier png en annexe
 
 ___
@@ -129,9 +129,9 @@ Three : [1, 2, 3, 4]
 
 `> java HanoiTest  
 (pas d'argument)
-~~~
--> interface graphique
-~~~
+
+![UML](images/Graphique_start.png)
+![UML](images/Graphique_finish.png)
 
 La classe Hanoi fonctionne, le jeu des tours de Hanoi est bien résolu et la sélection de l'affichage 
 console/graphique est sélectionné en fonction de s'il y a un argument ou non.
