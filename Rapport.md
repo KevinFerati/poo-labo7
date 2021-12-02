@@ -48,8 +48,8 @@ garder un typage sur T, sauf qu'il n'est pas possible de créer un tableau de ty
 Ainsi, la fonction toArray de la Pile prend en paramètre une instance de type Class\<T> (de même type que l'argument 
 générique de Pile) permettant ainsi d'obtenir comme résultat un tableau typé (et pas de type Object[]).
 ___
-## Tests
-### Pile
+### Tests Pile
+
 
 Les tests de la pile sont réalisés au moyen de la classe PileTest, une classe de test unitaire JUnit 5.
 
@@ -62,10 +62,24 @@ Les tests sont les suivants :
 - Fonction de conversion en array 
 - Fonction de conversion en string 
 
-Chacun de ces tests fonctionne. Il n'y a pas eu de problème  particulier à la réalisation de la pile.
+Chacun de ces tests fonctionne. Il n'y a pas eu de problème particulier à la réalisation de la pile.
 Voir le fichier PileTest.java pour plus de détails sur les tests.
 ___
-### Hanoi
+## Hanoi
+La classe Hanoi implémente toutes les méthodes demandées et nécessaires à la résolution du 
+jeu des Tours de Hanoi.
+
+Il y a deux constructeurs, un pour l'affichage sur console et 
+un générique pour l'affichage graphique et qui est utilisé par JHanoi.
+
+La méthode solve() permet de résoudre le jeu. Elle utilise un algorithme de résolution récursif.
+
+
+
+
+
+---
+### Tests Hanoi
 
 Les tests de la classe Hanoi sont réalisés en donnant différentes valeurs en argument à la classe HanoiTest.
 
